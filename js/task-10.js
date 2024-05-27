@@ -34,7 +34,7 @@ function createBoxes(amount) {
   let markup = "";
   let size = 30;
   for (let i = 1; i <= amount; i += 1){
-   markup=markup.concat(`<div style="background-color:${getRandomHexColor()}; width:${size}px; height: ${size}px">aa</div>`);
+   markup=markup.concat(`<div style="background-color:${getRandomHexColor()}; width:${size}px; height: ${size}px"></div>`);
    size = size + 10;
   }
  divRef.innerHTML=markup;
